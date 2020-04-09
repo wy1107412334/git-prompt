@@ -23,7 +23,8 @@
         conf=git-prompt.conf;                   [[ -r $conf ]]  && . $conf
         conf=/etc/git-prompt.conf;              [[ -r $conf ]]  && . $conf
         conf=~/.git-prompt.conf;                [[ -r $conf ]]  && . $conf
-        conf=~/.config/git-prompt.conf;         [[ -r $conf ]]  && . $conf
+#        conf=~/.config/git-prompt.conf;         [[ -r $conf ]]  && . $conf
+        conf=~/.git-prompt/git-prompt.conf;         [[ -r $conf ]]  && . $conf
         unset conf
 
 
